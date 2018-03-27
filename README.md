@@ -12,15 +12,15 @@ Algoritma Login
 
 Pseudecode: 
 
-SESSION[‘GAGAL’], $user, $pass =0
-JIKA < $user == $dbuser && $pass == $dbpass> == TRUE
-	Maka berhasil login dan masuk ke halaman selanjutnya. 
-JIKA FALSE
-	Maka melakukan proses increment pada SESSION [‘GAGAL’] +1
-	JIKA SESSION[‘GAGAL’] >=3 ==TRUE
-		Maka melakukan prses blokir dan muncul pesan bahwa sudah diblokir
-	JIka FALSE
-		Kembali ke awal. 
+	SESSION[‘GAGAL’], $user, $pass =0
+	JIKA < $user == $dbuser && $pass == $dbpass> == TRUE
+		Maka berhasil login dan masuk ke halaman selanjutnya. 
+	JIKA FALSE
+		Maka melakukan proses increment pada SESSION [‘GAGAL’] +1
+		JIKA SESSION[‘GAGAL’] >=3 ==TRUE
+			Maka melakukan prses blokir dan muncul pesan bahwa sudah diblokir
+		JIka FALSE
+			Kembali ke awal. 
     
     
 ![ss](https://github.com/Sindhi078/TUGAS_PROWEB4/blob/master/new/flowchart.PNG)
